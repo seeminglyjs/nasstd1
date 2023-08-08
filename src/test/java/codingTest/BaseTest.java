@@ -11,7 +11,7 @@ import static org.hamcrest.Matchers.is;
 template start
  */
 @SpringBootTest(classes = Nasstd1Application.class)
-public class baseTest { //클래스 명은 본인 클래스 이름에 맞게 변경
+public class BaseTest { //클래스 명은 본인 클래스 이름에 맞게 변경
 
     @Test
     public void baseTest(){

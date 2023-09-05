@@ -91,6 +91,8 @@ public class 교점에_별_만들기 {
         if (y < minY) minY = y;
     }
 
+    //recode 클래스 정보가 궁금하면 https://scshim.tistory.com/372
+    //기존의 생성 후 불면 클래스 대체하는 방식으로 이해하면 된다.
     private record Point(long x, long y) {
             @Override
             public String toString() {
